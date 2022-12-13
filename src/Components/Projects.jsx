@@ -8,9 +8,9 @@ import { Link } from 'react-router-dom'
 import "../Allstyles/project.css"
 const Projects = () => {
   return (<>
-  \
+  
     <div className='project_main' style={{border:"2px solid red"}}>
-      <div className='single_projet_box'  style={{border:"2px solid yellow"}}>
+      <div className='single_projet_box'  >
       <h1 className='Headings'>Revv Clone</h1>
           <img className='rev_home' src={rev} width="100%"/>
           <div>
@@ -36,7 +36,7 @@ const Projects = () => {
   <a href='https://github.com/soroutmanisha2606/revvpro' ><Button colorScheme='yellow' >Github</Button></a> 
   </div>
         </div>
-        <div className='single_projet_box'  style={{border:"2px solid yellow"}}>
+        <div className='single_projet_box'  >
         <h1 className='Headings'>Bluemercury Clone</h1>
           <img className='rev_home' src={bluemercury} width="100%"/>
           <div>
@@ -49,7 +49,7 @@ const Projects = () => {
   <a href='https://github.com/soroutmanisha2606/revvpro' ><Button colorScheme='yellow' >Github</Button></a> 
   </div>
         </div>
-        <div className='single_projet_box'  style={{border:"2px solid yellow"}}>
+        <div className='single_projet_box'  >
         <h1 className='Headings'>Shopdress Up Clone</h1>
           <img className='rev_home' src={rev} width="100%"/>
           <div>
