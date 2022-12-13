@@ -1,0 +1,42 @@
+.single_projet_box{
+    border: 2px solid white;
+    width: 50%;
+}
+.rev_home{
+    width: 600px;
+    height: 300px;
+}
+.btn_div{
+    display: flex;
+    gap: 10px;
+}
+/* .project_main{
+    display: flex;
+    gap:20px;
+} */
+.tech_tool{
+    display: flex;
+    gap:10px
+}
+.Headings{
+    color: white;
+    font-size: 30px;
+}
+.Heading2{
+    color: white;
+    font-size: 20px;
+}
+.single_projet_box{
+    width: 80%;
+   
+}
+.single_projet_box2{
+    width: 45%;
+    border: 2px solid white;
+}
+.project_main{
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 30px;
+  }

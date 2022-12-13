@@ -1,0 +1,18 @@
+/* *{
+    color: white;
+} */
+.baby_divs{
+    display: flex;
+    gap: 20px;
+}
+.parent_footer{
+    display: flex;
+    justify-content: space-around;
+    color: white;
+    background-color: rgb(35, 34, 34);
+}
+.footer_img{
+    height: 100px;
+    width: 100px;
+    background-color: transparent;
+}
