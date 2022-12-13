@@ -21,7 +21,7 @@ const Projects = () => {
           </div>
           <div className='btn_box'>
           <a href=""><Button colorScheme='yellow' classname="btn_live" p={8}>Live</Button></a>
-  <a href='https://github.com/soroutmanisha2606/revvpro'  ><Button p={10} colorScheme='yellow' >Github</Button></a> 
+  <a href='https://github.com/soroutmanisha2606/revvpro'  ><Button p={8} colorScheme='yellow' >Github</Button></a> 
   </div>
         </div>
         <div className='single_projet_box' >
@@ -33,8 +33,8 @@ const Projects = () => {
             </div>
           </div>
           <div className='btn_box'>
-          <a href=""><Button colorScheme='yellow' classname="btn_live" p={10}>Live</Button></a>
-  <a href='https://github.com/soroutmanisha2606/revvpro' classname="btn_live" ><Button p={10} colorScheme='yellow' >Github</Button></a> 
+          <a href="https://clone-boat-lifestyle.netlify.app/"><Button colorScheme='yellow' classname="btn_live" p={8}>Live</Button></a>
+  <a href='https://github.com/soroutmanisha2606/boat-lifestyle-clone' classname="btn_live" ><Button p={8} colorScheme='yellow' >Github</Button></a> 
   </div>
         </div>
         <div className='single_projet_box'  >
@@ -46,8 +46,8 @@ const Projects = () => {
             </div>
           </div>
           <div className='btn_box'>
-          <a href=""><Button colorScheme='yellow' classname="btn_live" p={10}>Live</Button></a>
-  <a href='https://github.com/soroutmanisha2606/revvpro' classname="btn_live" ><Button p={10} colorScheme='yellow' >Github</Button></a> 
+          <a href="https://effervescent-fairy-2266d6.netlify.app/index.html"><Button colorScheme='yellow' classname="btn_live" p={8}>Live</Button></a>
+  <a href='https://github.com/soroutmanisha2606/Bluemercury' classname="btn_live" ><Button p={8} colorScheme='yellow' >Github</Button></a> 
   </div>
         </div>
         <div className='single_projet_box'  >
@@ -59,8 +59,8 @@ const Projects = () => {
             </div>
           </div>
           <div className='btn_box'>  
-          <a href="https://shopdressup.netlify.app/" classname="btn_live"><Button p={10} colorScheme='yellow'>Live</Button></a>
-  <a href='https://github.com/soroutmanisha2606/revvpro' classname="btn_live" ><Button p={10} colorScheme='yellow' >Github</Button></a> 
+          <a href="https://shopdressup.netlify.app/" classname="btn_live"><Button p={8} colorScheme='yellow'>Live</Button></a>
+  <a href='https://github.com/soroutmanisha2606/revvpro' classname="btn_live" ><Button p={8} colorScheme='yellow' >Github</Button></a> 
   </div>
         </div>
       </div>
