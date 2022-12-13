@@ -10,7 +10,7 @@ import shopdress from "../images/shopdressup.png"
 const Projects = () => {
   return (<>
   
-    <div className='project_main' style={{border:"2px solid red"}}>
+    <div className='project_main' >
       <div className='single_projet_box'  >
       <h1 className='Headings'>Revv Clone</h1>
           <img className='rev_home' src={rev} width="100%"/>
@@ -39,12 +39,12 @@ const Projects = () => {
         </div>
         <div className='single_projet_box'  >
         <h1 className='Headings'>Bluemercury Clone</h1>
-          <img className='rev_home' src={bluemercury} width="100%"/>
+          <img className='rev_home' src={bluemercury}  width="100%"/>
           <div>
             <div className='tech_tool'>
               <h1 className='Heading2'>Tech and Tools  Used-HTML,CSS,JS</h1>
             </div>
-          </div>
+          </div> 
           <div className='btn_box'>
           <a href="https://effervescent-fairy-2266d6.netlify.app/index.html"><Button colorScheme='yellow' classname="btn_live" p={8}>Live</Button></a>
   <a href='https://github.com/soroutmanisha2606/Bluemercury' classname="btn_live" ><Button p={8} colorScheme='yellow' >Github</Button></a> 
