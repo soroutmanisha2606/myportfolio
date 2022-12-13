@@ -27,9 +27,10 @@
     font-size: 20px;
 }
 .single_projet_box{
-    width: 80%;
-    box-shadow: 0 0 20px white;
-   
+    width: 90%;
+    border-radius: 20px;
+    padding: 10px;
+    box-shadow: 0 0 20px white;   
 }
 .single_projet_box2{
     width: 45%;
@@ -39,5 +40,13 @@
     margin: auto;
     display: grid;
     grid-template-columns: repeat(2,1fr);
-    gap: 30px;
+    gap: 15px;
+  }
+  .btn_box{
+    display: flex;
+   justify-content: space-evenly;
+  }
+  .btn_live{
+    padding: 10px;
+    
   }
