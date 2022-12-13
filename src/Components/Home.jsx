@@ -1,6 +1,7 @@
 import { Button, LightMode } from '@chakra-ui/react'
 import React from 'react'
 import { Link } from 'react-router-dom'
+import About from './About'
 import "../Allstyles/home.css"
 import Myname from '../Transistions/Myname'
 //import {introimg} from "../images/home_img_page.jpej"
@@ -138,6 +139,7 @@ const Home = () => {
         }
          </div>
     </div>
+    <About/>
     </div>
   )
 }

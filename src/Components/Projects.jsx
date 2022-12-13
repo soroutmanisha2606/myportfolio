@@ -13,7 +13,7 @@ const Projects = () => {
     <div className='project_main' >
       <div className='single_projet_box'  >
       <h1 className='Headings'>Revv Clone</h1>
-          <img className='rev_home' src={rev} width="100%"/>
+          <img className='rev_home' src={rev} width="100%" />
           <div>
             <div className='tech_tool'>
               <h1 className='Heading2'>Tech and Tools  Used-HTML,CSS,JS</h1>

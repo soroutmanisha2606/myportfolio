@@ -1,0 +1,16 @@
+.nav{
+    position: fixed;
+    width: 100%;
+    padding: 15px;
+    z-index: 3;
+    margin-top: 0px;
+}
+.nav_link{
+    display: block;
+    padding: 0.5rem 1rem; }
+    .nav-link:hover, .nav-link:focus {
+      text-decoration: none; }
+    .nav-link.disabled {
+      color: #6c757d;
+      pointer-events: none;
+      cursor: default; }

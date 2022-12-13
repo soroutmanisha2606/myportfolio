@@ -7,6 +7,9 @@ const Main = () => {
   return (
     <>
     <Navbar/>
+    <br/>
+    <br/>
+    <br/>
    <Allroutes/>
    {/* <Footer/> */}
     </>
