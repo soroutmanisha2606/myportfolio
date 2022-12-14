@@ -10,13 +10,16 @@ const Navbar = () => {
      <Link to="/"><Heading size='lg' sx={{color:"white"}}>Portfolio</Heading></Link> 
     </div>
     <Spacer />
-    <ButtonGroup gap='2'>
-    <Link to="/" className='nav_link'>  <Button colorScheme='black.100'>Home</Button></Link>
-    <Link to="/project" className='nav_link'> <Button colorScheme='black'>Project</Button></Link> 
-    <Link to="/about" className='nav_link'><Button colorScheme='black'>About</Button></Link>
-    <Link to="/contact" className='nav_link'><Button colorScheme='black'>Contact</Button></Link>
-    </ButtonGroup>
-  </Flex></div>
+    <div className='div2'> 
+   
+    <div className='divs' colorScheme='black.100'> <Link to="/" className='nav_link'> Home</Link></div>
+    <div className='divs' colorScheme='black.100'>   <Link to="/project" className='nav_link'>Project</Link> </div>
+    <div className='divs' colorScheme='black.100'><Link to="/about" className='nav_link'>About</Link></div>
+    <div className='divs' colorScheme='black.100'><Link to="/contact" className='nav_link'>Contact</Link></div>
+   </div>
+    
+  </Flex>
+  </div>
   )
 }
 

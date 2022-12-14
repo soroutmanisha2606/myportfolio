@@ -1,10 +1,12 @@
 .nav{
-    position: relative;
+    /* position: fixed; */
     width: 100%;
     padding: 15px;
     z-index: 3;
     margin-top: 0px;
+    color: white;
 }
+
 .nav_link{  
     display: block;
     padding: 0.5rem 1rem; }
@@ -15,35 +17,156 @@
       pointer-events: none;
       cursor: default; }
 
-      /* responsive */
-      /* chote */
-      @media only screen and (min-width: 414px) and (max-width: 896px)  { 
+      
+      /* @media only screen and (min-width: 414px) and (max-width: 896px)  { 
  .box_withname{
   display: none;
  }
  .nav{
   display: flex;
   width: 100%;
+  position: fixed;
   justify-content: space-between;
+ 
  }
-      }
+ .div2{
+  width: 100%;
+  color: white;
+ }
+      } */
       /* bada */
       @media only screen and (min-width: 290px) and (max-width: 844px)  {
+        .box_withname{
+          display: none;
+        }
+      }
+
+      /* papa */
+      @media only screen and (min-width: 300px) and (max-width: 400px)  {
         .box_withname{
           display: none;
          }
          .nav{
           display: flex;
+          position: fixed;
           align-items: center;
-          width: 70%;
+          /* border:2px solid red; */
+          width: 100%;
+          /* background-color: aqua  ; */
           justify-content: space-between;
          }
+         .div2{
+          width: 290px;
+          color: white;
+          /* border: 2px solid rgb(81, 81, 21); */
+          /* background-color: pink; */
+        display: flex;
+        justify-content: space-evenly;
+  
+         
+         
+        }
       }
-      /* papa */
-      @media only screen and (min-width: 768px) and (max-width: 1024px)  {
-
+     
+      @media only screen and (min-width: 400px) and (max-width: 500px)  {
+        .box_withname{
+          display: none;
+         }
+         .nav{
+          display: flex;
+          position: fixed;
+          align-items: center;
+          /* border:2px solid red; */
+          width: 100%;
+          /* background-color: aqua  ; */
+          justify-content: space-between;
+         }
+         .div2{
+          width:410px;
+          color: white;
+          /* border: 2px solid rgb(81, 81, 21); */
+          /* background-color: pink; */
+        display: flex;
+        justify-content: space-evenly;
+  
+         
+         
+        }
+      }
+      @media only screen and (min-width: 500px) and (max-width: 600px)  {
+        .box_withname{
+          display: none;
+         }
+         .nav{
+          display: flex;
+          position: fixed;
+          align-items: center;
+          /* border:2px solid red; */
+          width: 100%;
+          /* background-color: aqua  ; */
+          justify-content: space-between;
+         }
+         .div2{
+          width: 490px;
+          color: white;
+          /* border: 2px solid rgb(81, 81, 21); */
+          /* background-color: pink; */
+        display: flex;
+        justify-content: space-evenly;
+  
+         
+         
+        }
       }
       /* dada */
-      @media only screen and (min-width: 912px) and (max-width: 1368px)  {
-
+      @media only screen and (min-width: 601px) and (max-width: 700px)  {
+        .box_withname{
+          display: none;
+         }
+         .nav{
+          display: flex;
+          position: fixed;
+          align-items: center;
+          /* border:2px solid red; */
+          width: 100%;
+          /* background-color: aqua  ; */
+          justify-content: space-between;
+         }
+         .div2{  
+          width: 590px;
+          color: white;
+          /* border: 2px solid blue; */
+          /* background-color: pink; */
+        display: flex;
+        justify-content: space-evenly;
+  
+         
+         
+        }
       }
+      @media only screen and (min-width: 701px) and (max-width: 1200px)  {
+        .box_withname{
+          display: none;
+         }
+         .nav{
+          display: flex;
+          position: fixed;
+          align-items: center;
+          /* border:2px solid red; */
+          width: 100%;
+          /* background-color: aqua  ; */
+          justify-content: space-between;
+         }
+         .div2{  
+          width: 790px;
+          color: white;
+          /* border: 2px solid blue; */
+          /* background-color: pink; */
+        display: flex;
+        justify-content: space-evenly;
+  
+         
+         
+        }
+      }
+     

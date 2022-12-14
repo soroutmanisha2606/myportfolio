@@ -118,7 +118,7 @@ font-size: 20px;
 }
  }
 
- @media only screen and (min-width: 268px) and (max-width: 924px)  {
+ @media only screen and (min-width: 350px) and (max-width: 450px)  {
   /* .papa_box{
     display: grid;
   grid-template-columns: repeat(4,1fr);
@@ -127,7 +127,8 @@ font-size: 20px;
   font-size: 20px;
   
   } */
+.content{
+  width: 200px;
+  margin-bottom: 30%;
  }
- @media only screen and (min-width: 912px) and (max-width: 1368px)  {
-
- }
+}
