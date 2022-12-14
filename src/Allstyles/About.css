@@ -10,6 +10,11 @@
     margin-left: 90px;
 
 }
+.span{
+    font-size: 60%;
+    font-weight: bolder;
+  
+}
 .left_about{
     width: 60%;
     border:"2px solid white"
@@ -20,3 +25,58 @@
     border-radius: 48%;
     
 }
+ /* responsive */
+ @media only screen and (min-width: 414px) and (max-width: 896px)  {
+    .About_parent{
+        color: white;
+        display: flex;
+        flex-direction: column;
+     
+        font: bolder;
+        font-size: 15px;
+       
+        z-index: 1;
+        align-content: center;
+        
+    
+    }
+    .span{
+        font-size: 23%;
+        font-weight: bolder;
+      
+    }
+    .left_about{
+        width: 90%;
+        border:"2px solid white"
+    }
+ }
+ @media only screen and (min-width: 390px) and (max-width: 844px)  {
+    .About_parent{
+        color: white;
+        display: flex;
+        flex-direction: column;
+        
+        font: bolder;
+        font-size: 30px;
+      
+        z-index: 1;
+        align-content: center;
+       
+    
+    }
+    .span{
+        font-size: 30%;
+        font-weight: bolder;
+      
+    }
+    .left_about{
+        width: 90%;
+        border:"2px solid white"
+    }
+ }
+ @media only screen and (min-width: 768px) and (max-width: 1024px)  {
+
+ }
+ @media only screen and (min-width: 912px) and (max-width: 1368px)  {
+
+ }

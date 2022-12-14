@@ -6,9 +6,9 @@ import "../Allstyles/navbar.css"
 const Navbar = () => {
   return (
     <div className='nav'><Flex minWidth='max-content' alignItems='center' gap='2'>
-    <Box p='2'>
+    <div p='2' className='box_withname'>
      <Link to="/"><Heading size='lg' sx={{color:"white"}}>Portfolio</Heading></Link> 
-    </Box>
+    </div>
     <Spacer />
     <ButtonGroup gap='2'>
     <Link to="/" className='nav_link'>  <Button colorScheme='black.100'>Home</Button></Link>

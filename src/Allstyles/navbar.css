@@ -1,5 +1,5 @@
 .nav{
-    position: fixed;
+    /* position: fixed; */
     width: 100%;
     padding: 15px;
     z-index: 3;
@@ -14,3 +14,35 @@
       color: #6c757d;
       pointer-events: none;
       cursor: default; }
+
+      /* responsive */
+      /* chote */
+      @media only screen and (min-width: 414px) and (max-width: 896px)  { 
+ .box_withname{
+  display: none;
+ }
+ .nav{
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+ }
+      }
+      /* bada */
+      @media only screen and (min-width: 390px) and (max-width: 844px)  {
+        .box_withname{
+          display: none;
+         }
+         .nav{
+          display: flex;
+          width: 70%;
+          justify-content: space-between;
+         }
+      }
+      /* papa */
+      @media only screen and (min-width: 768px) and (max-width: 1024px)  {
+
+      }
+      /* dada */
+      @media only screen and (min-width: 912px) and (max-width: 1368px)  {
+
+      }

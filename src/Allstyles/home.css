@@ -26,6 +26,7 @@
 }
 .hero{
     display: flex;
+    border:2px solid red
    
 }
 .btn:hover{
@@ -78,3 +79,42 @@ font-size: 20px;
   from {bottom: 0px;}
   to {bottom: 50px;}
 }
+ /* responsive */
+ @media only screen and (max-width: 896px) and (min-width: 414px)  {
+  .hero{
+    display: flex;
+    flex-direction: column;
+    border:2px solid green;
+   
+}
+.papa_box{
+  display: grid;
+grid-template-columns: repeat(2,1fr);
+gap:5px;
+color: white;
+font-size: 20px;
+
+}
+ }
+ @media only screen and (min-width: 390px) and (max-width: 844px)  {
+  .hero{
+    display: grid;
+    grid-template-columns: repeat(1,1fr);
+
+}
+.papa_box{
+  display: grid;
+grid-template-columns: repeat(2,1fr);
+gap:5px;
+color: white;
+font-size: 20px;
+
+}
+ }
+
+ @media only screen and (min-width: 768px) and (max-width: 1024px)  {
+
+ }
+ @media only screen and (min-width: 912px) and (max-width: 1368px)  {
+
+ }

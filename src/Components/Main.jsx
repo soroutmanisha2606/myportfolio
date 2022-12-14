@@ -9,8 +9,7 @@ const Main = () => {
     <Navbar/>
     <br/>
     <br/>
-    <br/>
-    <br/>
+    
    <Allroutes/>
    {/* <Footer/> */}
     </>

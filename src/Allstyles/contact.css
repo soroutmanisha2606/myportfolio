@@ -54,4 +54,16 @@ color: white;
     from {left: 0px;}
     to {left: 50px;}
   }
-  
+   /* responsive */
+   @media only screen and (max-width: 414px) and (min-width: 896px)  {
+
+   }
+   @media only screen and (max-width: 390px) and (min-width: 844px)  {
+
+   }
+   @media only screen and (max-width: 768px) and (min-width: 1024px)  {
+
+   }
+   @media only screen and (max-width: 912px) and (min-width: 1368px)  {
+
+   }
