@@ -17,20 +17,7 @@
     background-color: transparent;
 }
 @media only screen and (max-width: 896px) and (min-width: 414px)  {
-    .hero{
-      display: flex;
-      flex-direction: column;
-      border:2px solid green;
-     
-  }
-  .papa_box{
-    display: grid;
-  grid-template-columns: repeat(2,1fr);
-  gap:5px;
-  color: white;
-  font-size: 20px;
-  
-  }
+   
    }
 @media only screen and (min-width: 390px) and (max-width: 844px)  {
     .hero{

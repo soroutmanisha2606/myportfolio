@@ -1,11 +1,11 @@
 .nav{
-    /* position: fixed; */
+    position: relative;
     width: 100%;
     padding: 15px;
     z-index: 3;
     margin-top: 0px;
 }
-.nav_link{
+.nav_link{  
     display: block;
     padding: 0.5rem 1rem; }
     .nav-link:hover, .nav-link:focus {
@@ -28,12 +28,13 @@
  }
       }
       /* bada */
-      @media only screen and (min-width: 390px) and (max-width: 844px)  {
+      @media only screen and (min-width: 290px) and (max-width: 844px)  {
         .box_withname{
           display: none;
          }
          .nav{
           display: flex;
+          align-items: center;
           width: 70%;
           justify-content: space-between;
          }

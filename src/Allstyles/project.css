@@ -54,7 +54,7 @@
 
   }
    /* responsive */
-   @media only screen and (min-width: 414px) and (max-width: 896px)  {
+   @media only screen and (min-width: 204px) and (max-width: 896px)  {
     .project_main{
         margin: auto;
         display: grid;
@@ -71,7 +71,15 @@
         box-shadow: 0 0 20px white; 
      align-content: center; 
     }
-
+.content{
+    /* border: 2px solid yellow; */
+    position: relative;
+    margin: auto;
+    margin-bottom: 20%;
+  margin-left: -35%;
+    height: 200px;
+    width: 400px;
+}
    }
    @media only screen and (min-width: 390px) and (max-width: 844px)  {
     .project_main{

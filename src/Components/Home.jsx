@@ -109,7 +109,7 @@ const Home = () => {
         <h2>Full Stack Web Developer</h2>
         <div>
       <Link to="/project">  <Button  className="btn">PROJECTS</Button></Link>
-      <Link to="/contact">  <Button className="btn">CONTACT</Button></Link>
+      <a href="https://drive.google.com/file/d/1E6w7kLLGksy-R3bu0rW2mdTd03dGz2V3/view?usp=share_link">  <Button className="btn">Resume</Button></a>
             </div>
     </div>
     </div>
@@ -139,7 +139,7 @@ const Home = () => {
         }
          </div>
     </div>
-    <About/>
+    {/* <About/> */}
     </div>
   )
 }

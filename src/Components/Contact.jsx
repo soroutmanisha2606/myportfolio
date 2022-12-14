@@ -21,11 +21,11 @@ export const Contact = () => {
         <div>soroutmanisha12gmail.com</div></div>
       <div className='contact_boxes'>
         <div><BsLinkedin/></div>
-        <div>linkedin.com/in/manisha-sorout-b965231b5</div>
+        <div>manisha-sorout-b965231b5</div>
       </div>
       <div className='contact_boxes'>
         <div><AiFillGithub/></div>
-        <div>https://github.com/soroutmanisha2606</div>
+        <div>soroutmanisha2606</div>
       </div>
       <div className='contact_boxes'></div>
       </div>
