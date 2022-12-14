@@ -10,6 +10,7 @@ const Main = () => {
     <br/>
     <br/>
     <br/>
+    <br/>
    <Allroutes/>
    {/* <Footer/> */}
     </>
