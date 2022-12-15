@@ -4,32 +4,20 @@ import rev from "../images/revvclone.png"
 import boat from "../images/boat.png"
 import bluemercury from "../images/bluemercury.png"
 import "../Allstyles/project.css"
-import { Link } from 'react-router-dom'
+
 import "../Allstyles/project.css"
 import shopdress from "../images/shopdressup.png"
 const Projects = () => {
   return (<>
-  
-    <div className='project_main' >
-      <div className='single_projet_box'  >
-      <h1 className='Headings'>Revv Clone</h1>
-          <img className='rev_home' src={rev} width="100%" />
-          <div>
-            <div className='tech_tool'>
-              <h1 className='Heading2'>Tech and Tools  Used-HTML,CSS,JS</h1>
-            </div>
-          </div>
-          <div className='btn_box'>
-          <a href=""><Button colorScheme='yellow' classname="btn_live" p={8}>Live</Button></a>
-  <a href='https://github.com/soroutmanisha2606/revvpro'  ><Button p={8} colorScheme='yellow' >Github</Button></a> 
-  </div>
-        </div>
+   <h1 style={{fontSize:"60px",color:"white",fontWeight:"bolder",marginBottom:"30px"}}>PROJECTS</h1>
+    <div className='project_main'>
+      
         <div className='single_projet_box' >
         <h1 className='Headings'>Boat Clone</h1>
           <img className='rev_home' src={boat} width="100%"/>
           <div>
             <div className='tech_tool'>
-              <h1 className='Heading2'>Tech and Tools  Used-HTML,CSS,JS</h1>
+              <h1 className='Heading2'>TTech and Tools  Used-: React,React-redux,ChakraUi,Formik ,chatbot,emailjs</h1>
             </div>
           </div>
           <div className='btn_box'>
@@ -42,7 +30,7 @@ const Projects = () => {
           <img className='rev_home' src={bluemercury}  width="100%"/>
           <div>
             <div className='tech_tool'>
-              <h1 className='Heading2'>Tech and Tools  Used-HTML,CSS,JS</h1>
+              <h1 className='Heading2'> <span fontSize="40%" fontWeight="bolder">Tech and Tools Used -</span>HTML,CSS,JS,Bootstrap</h1>
             </div>
           </div> 
           <div className='btn_box'>
@@ -55,12 +43,25 @@ const Projects = () => {
           <img className='rev_home' src={shopdress} width="100%"/>
           <div>
             <div className='tech_tool'>
-              <h1 className='Heading2'>Tech and Tools  Used-: React,React-redux,ChakraUi,Formik ,chatbot,emailjs</h1>
+              <h1 className='Heading2'>Tech and Tools Used-: React,React-redux,ChakraUi,Formik ,chatbot,emailjs</h1>
             </div>
           </div>
           <div className='btn_box'>  
           <a href="https://shopdressup.netlify.app/" classname="btn_live"><Button p={8} colorScheme='yellow'>Live</Button></a>
   <a href='https://github.com/soroutmanisha2606/revvpro' classname="btn_live" ><Button p={8} colorScheme='yellow' >Github</Button></a> 
+  </div>
+        </div>
+        <div className='single_projet_box'  >
+      <h1 className='Headings'>Revv Clone</h1>
+          <img className='rev_home' src={rev} width="100%" />
+          <div>
+            <div className='tech_tool'>
+              <h1 className='Heading2'>Tech and Tools  Used-HTML,CSS,JS</h1>
+            </div>
+          </div>
+          <div className='btn_box'>
+          <a href=""><Button colorScheme='yellow' classname="btn_live" p={8}>Live</Button></a>
+  <a href='https://github.com/soroutmanisha2606/revvpro'  ><Button p={8} colorScheme='yellow' >Github</Button></a> 
   </div>
         </div>
       </div>

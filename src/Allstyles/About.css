@@ -37,6 +37,7 @@
        
         z-index: 1;
         align-content: center;
+        margin: auto;
         
     
     }
@@ -53,6 +54,7 @@
     .my_img{
         width: 310px;
         height: 310px;
+        margin: auto;
         border-radius: 48%;
         
     }
@@ -65,7 +67,7 @@
         
         font: bolder;
         font-size:30px;
-      
+        margin: auto;
  
         align-content: center;
        
@@ -79,6 +81,7 @@
     .my_img{
         width: 310px;
         height: 310px;
+        margin: auto;
         border-radius: 48%;
         
     }

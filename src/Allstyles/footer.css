@@ -5,6 +5,10 @@
     display: flex;
     gap: 20px;
 }
+.tech_tool{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
 .parent_footer{
     display: flex;
     justify-content: space-around;

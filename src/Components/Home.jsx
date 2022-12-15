@@ -1,5 +1,5 @@
 import { Button, LightMode } from '@chakra-ui/react'
-import React from 'react'
+import React, { useEffect, useState } from 'react'
 import { Link } from 'react-router-dom'
 import About from './About'
 import "../Allstyles/home.css"
@@ -94,8 +94,8 @@ const tools=[
 //   }
 //   getdata()
  
-const Home = () => {
-
+const Home = (props) => {
+  
   return (  
    
     <div className='parent'>

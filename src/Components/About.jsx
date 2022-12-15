@@ -3,6 +3,8 @@ import "../Allstyles/About.css"
 import myphoto from "../images/mypic.jpeg"
 const About = () => {
   return (
+    <>
+    <h1 style={{fontSize:"60px",color:"white",fontWeight:"bolder",marginBottom:"30px",marginTop:"20px"}}>ABOUT</h1>
     <div className='About_parent'>
        <div className='right_about'>
           <img className='my_img' src={myphoto} alt='manisha'/>
@@ -13,6 +15,7 @@ const About = () => {
         </div>
        
     </div>
+    </>
   )
 }
 // display: block;
