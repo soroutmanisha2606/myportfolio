@@ -5,6 +5,7 @@ import "../App.css"
 import "../Allstyles/navbar.css"
 const Navbar = ({ inview }) => {
   const [active, setActive] = useState("#");
+  console.log(active);
   useEffect(() => {
     setActive(inview);
   }, [inview]);
@@ -31,29 +32,29 @@ const Navbar = ({ inview }) => {
     <Box className={showNav ? 1 : 0}>
     <div className='nav'><Flex minWidth='max-content' alignItems='center' gap='2'>
     <div p='2' className='box_withname'>
-     <Link to="/"><Heading size='lg' sx={{color:"white"}}>Manisha</Heading></Link> 
+     <Link ><Heading size='lg' sx={{color:"white"}}>Manisha</Heading></Link> 
     </div>
     <Spacer />
     <div className='div2'>   
-    <div className='divs' colorScheme='black.100'>  <a
+    <div className='divs' >  <a
               href="/#"
               onClick={() => setActive("#")}
               className={active === "#" ? "active" : ""}
             > Home</a></div>
 
-    <div className='divs' colorScheme='black.100'>   <a
+    <div className='divs' ><a
               href="#project"
               onClick={() => setActive("#project")}
               className={active === "#project" ? "active" : ""}
             >Project</a> </div>
 
-    <div className='divs' colorScheme='black.100'><a
+    <div className='divs'><a
               href="#about"
               onClick={() => setActive("#about")}
               className={active === "#about" ? "active" : ""}
             >About</a></div>
 
-    <div className='divs' colorScheme='black.100'><a
+    <div className='divs' ><a
               href="#contact"
               onClick={() => setActive("#contact")}
               className={active === "#contact" ? "active" : ""}

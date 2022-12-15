@@ -6,8 +6,8 @@ import Allroutes from './Routes/Allroutes';
 function App() {
   return (
     <div className="App">
-   
-      <Main/>
+   <Allroutes/>
+      {/* <Main/> */}
     </div>
   );
 }

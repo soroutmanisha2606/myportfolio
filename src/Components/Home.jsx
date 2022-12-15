@@ -94,7 +94,7 @@ const tools=[
 //   }
 //   getdata()
  
-const Home = (props) => {
+const Home = () => {
   
   return (  
    
