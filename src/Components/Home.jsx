@@ -98,7 +98,7 @@ const Home = () => {
   
   return (  
    
-    <div className='parent'>
+    <div className='parent' id="home">
     <div className='hero' >
       <div className='Home_page'>
         {/* src='https://res.cloudinary.com/practicaldev/image/fetch/s--O0u1bNHs--/c_limit%2Cf_auto%2Cfl_progressive%2Cq_66%2Cw_880/https://miro.medium.com/max/1400/0%2APXf5ge7QCN9Ga_CL.gif' */}
@@ -113,32 +113,8 @@ const Home = () => {
             </div>
     </div>
     </div>
-    <div>
-      <h1 style={{fontSize:"60px",color:"white",fontWeight:"bolder",marginBottom:"30px"}}>SKILLS</h1>
-      <div  className='papa_box'>
-        {
-          skills_details.map(({name,url})=>{
-            return <div className='main_skill'>
-              <img className="url"src={url}/>
-              <h5>{name}</h5>
-            </div>
-          })
-        }
-         </div>
-    </div>
-    <div>
-      <h1 style={{fontSize:"60px",color:"white",fontWeight:"bolder",marginBottom:"30px"}}>TOOLS</h1>
-      <div  className='papa_box'>
-        {
-          tools.map(({name,url})=>{
-            return <div className='main_skill'>
-              <img className="url"src={url}/>
-              <h5>{name}</h5>
-            </div>
-          })
-        }
-         </div>
-    </div>
+    
+   
     {/* <About/> */}
     </div>
   )

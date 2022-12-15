@@ -7,8 +7,8 @@ import {AiFillGithub,AiFillTwitterCircle} from "react-icons/ai"
 import "../Allstyles/contact.css"
 import Thankyou from '../Transistions/Thankyou'
 export const Contact = () => {
-  return (<>
-   <h1 style={{fontSize:"60px",color:"white",fontWeight:"bolder",marginBottom:"30px",marginTop:"30px"}}>CONTACT</h1>
+  return (<div id="contact">
+    <h2 style={{fontSize:"60px",color:"white",fontWeight:"bolder",marginBottom:"20px",marginTop:"20px"}}>CONTACT</h2>
     <div className='contact_parent'><div>
       <img className='IMAGE' src="https://camo.githubusercontent.com/5ff9182d12e799168a3bb67b88df7388ae08ede3/68747470733a2f2f6d69726f2e6d656469756d2e636f6d2f6d61782f3837352f312a7164415731546a434e353768316c6275757a766368672e676966"/>
     </div>
@@ -32,7 +32,7 @@ export const Contact = () => {
       </div>
       </div>
       <div className='thankyou'><Thankyou/></div>
-      </>
+      </div>
       
   )
 }

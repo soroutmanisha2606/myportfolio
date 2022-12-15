@@ -95,7 +95,7 @@ font-size: 20px;
 display: none;}
 .papa_box{
   display: grid;
-grid-template-columns: repeat(3 ,1fr);
+grid-template-columns: repeat(2,1fr);
 gap:5px;
 color: white;
 font-size: 20px;

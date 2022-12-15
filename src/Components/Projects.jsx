@@ -8,8 +8,8 @@ import "../Allstyles/project.css"
 import "../Allstyles/project.css"
 import shopdress from "../images/shopdressup.png"
 const Projects = () => {
-  return (<>
-   <h1 style={{fontSize:"60px",color:"white",fontWeight:"bolder",marginBottom:"30px"}}>PROJECTS</h1>
+  return (<div id="project">
+   <h2 style={{fontSize:"60px",color:"white",fontWeight:"bolder",marginBottom:"20px",marginTop:"20px"}}>PROJECTS</h2>
     <div className='project_main'>
       
         <div className='single_projet_box' >
@@ -34,7 +34,7 @@ const Projects = () => {
             </div>
           </div> 
           <div className='btn_box'>
-          <a href="https://effervescent-fairy-2266d6.netlify.app/index.html"><Button colorScheme='yellow' classname="btn_live" p={8}>Live</Button></a>
+          <a href="https://unrivaled-fenglisu-63c439.netlify.app/"><Button colorScheme='yellow' classname="btn_live" p={8}>Live</Button></a>
   <a href='https://github.com/soroutmanisha2606/Bluemercury' classname="btn_live" ><Button p={8} colorScheme='yellow' >Github</Button></a> 
   </div>
         </div>
@@ -71,7 +71,7 @@ const Projects = () => {
  
     
     
-   </>
+   </div >
   )
 }
 

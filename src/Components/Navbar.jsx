@@ -1,8 +1,11 @@
 import { Box, Button, ButtonGroup, Flex, Heading, Spacer } from '@chakra-ui/react'
 import React, { useEffect, useState } from 'react'
 import { Link } from 'react-router-dom'
+import { NavHashLink, HashLink } from 'react-router-hash-link'
+import { BrowserRouter } from 'react-router-dom'
 import "../App.css"
 import "../Allstyles/navbar.css"
+
 const Navbar = ({ inview }) => {
   const [active, setActive] = useState("#");
   console.log(active);
@@ -29,38 +32,49 @@ const Navbar = ({ inview }) => {
     );
   }, []);
   return (
+    
     <Box className={showNav ? 1 : 0}>
+      
     <div className='nav'><Flex minWidth='max-content' alignItems='center' gap='2'>
     <div p='2' className='box_withname'>
      <Link ><Heading size='lg' sx={{color:"white"}}>Manisha</Heading></Link> 
     </div>
     <Spacer />
     <div className='div2'>   
-    <div className='divs' >  <a
-              href="/#"
+    <div className='divs' >  <NavHashLink 
+              to="#home"
               onClick={() => setActive("#")}
               className={active === "#" ? "active" : ""}
-            > Home</a></div>
-
-    <div className='divs' ><a
-              href="#project"
-              onClick={() => setActive("#project")}
-              className={active === "#project" ? "active" : ""}
-            >Project</a> </div>
-
-    <div className='divs'><a
-              href="#about"
-              onClick={() => setActive("#about")}
-              className={active === "#about" ? "active" : ""}
-            >About</a></div>
-
-    <div className='divs' ><a
-              href="#contact"
+            > Home</NavHashLink></div>
+             <div className='divs' >
+      < NavHashLink
+              to="#skills"
               onClick={() => setActive("#contact")}
               className={active === "#contact" ? "active" : ""}
-            >Contact</a></div>
-   </div>
-    
+            >Skills</ NavHashLink></div>
+  
+   
+
+    <div className='divs' ><NavHashLink
+              to="#project"
+              onClick={() => setActive("#project")}
+              className={active === "#project" ? "active" : ""}
+            >Project</NavHashLink> </div>
+
+    <div className='divs'><NavHashLink smooth="true"
+              to="#about"
+              onClick={() => setActive("#about")}
+              className={active === "#about" ? "active" : ""}
+            >About</NavHashLink></div>
+
+    <div className='divs' >
+      < NavHashLink
+              to="#contact"
+              onClick={() => setActive("#contact")}
+              className={active === "#contact" ? "active" : ""}
+            >Contact</ NavHashLink></div>
+           
+           </div>
   </Flex>
   </div>
   </Box>
