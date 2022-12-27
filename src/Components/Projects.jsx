@@ -17,12 +17,13 @@ const Projects = () => {
           <img className='rev_home' src={boat} width="100%"/>
           <div>
             <div className='tech_tool'>
-              <h1 className='Heading2'>TTech and Tools  Used-: React,React-redux,ChakraUi,Formik ,chatbot,emailjs</h1>
+              <h1 style={{fontSize:"23px",fontWeight:"bolder"}}>India's fastest growing audio & wearables brand. The most incredible range of wireless earphones, earbuds, headphones, smart watches, and home audio.And it is fully responsive also</h1>
+              <h1 className='Heading2' style={{color:"#ecc94b " ,fontSize:"25px",fontWeight:"bolder"}}>TTech and Tools  Used-: React,React-redux,ChakraUi,Formik ,chatbot,emailjs</h1>
             </div>
           </div>
           <div className='btn_box'>
-          <a href="https://clone-boat-lifestyle.netlify.app/"><Button colorScheme='yellow' classname="btn_live" p={8}>Live</Button></a>
-  <a href='https://github.com/soroutmanisha2606/boat-lifestyle-clone' classname="btn_live" ><Button p={8} colorScheme='yellow' >Github</Button></a> 
+          <a href="https://clone-boat-lifestyle.netlify.app/"target="_blank"><Button colorScheme='yellow' classname="btn_live" p={8}>Live</Button></a>
+  <a href='https://github.com/soroutmanisha2606/boat-lifestyle-clone' target="_blank" classname="btn_live" ><Button p={8} colorScheme='yellow' >Github</Button></a> 
   </div>
         </div>
         <div className='single_projet_box'  >
@@ -30,12 +31,13 @@ const Projects = () => {
           <img className='rev_home' src={bluemercury}  width="100%"/>
           <div>
             <div className='tech_tool'>
-              <h1 className='Heading2'> <span fontSize="40%" fontWeight="bolder">Tech and Tools Used -</span>HTML,CSS,JS,Bootstrap</h1>
+              <h1 style={{fontSize:"23px",fontWeight:"bolder"}}>Bluemercury.com is a leading luxury beauty retailer offering the best cosmetics, skin care, makeup, perfume, hair, and bath and body.And it is responsive also and made with html,css and js </h1>
+              <h1 className='Heading2' style={{color:"#ecc94b " ,fontSize:"25px",fontWeight:"bolder"}}> <span fontSize="40%" fontWeight="bolder" style={{color:"#ecc94b " ,fontSize:"25px",fontWeight:"bolder"}}>Tech and Tools Used -</span>HTML,CSS,JS,Bootstrap</h1>
             </div>
           </div> 
           <div className='btn_box'>
-          <a href="https://unrivaled-fenglisu-63c439.netlify.app/"><Button colorScheme='yellow' classname="btn_live" p={8}>Live</Button></a>
-  <a href='https://github.com/soroutmanisha2606/Bluemercury' classname="btn_live" ><Button p={8} colorScheme='yellow' >Github</Button></a> 
+          <a href="https://unrivaled-fenglisu-63c439.netlify.app/" target="_blank"><Button colorScheme='yellow' classname="btn_live" p={8}>Live</Button></a>
+  <a href='https://github.com/soroutmanisha2606/Bluemercury' target="_blank" classname="btn_live" ><Button p={8} colorScheme='yellow' >Github</Button></a> 
   </div>
         </div>
         <div className='single_projet_box'  >
@@ -43,12 +45,16 @@ const Projects = () => {
           <img className='rev_home' src={shopdress} width="100%"/>
           <div>
             <div className='tech_tool'>
-              <h1 className='Heading2'>Tech and Tools Used-: React,React-redux,ChakraUi,Formik ,chatbot,emailjs</h1>
+              <h1 style={{fontSize:"23px",fontWeight:"bolder"}}>A E-commerce website user able to login with the google authentication also and here they can see some Good UI and same also is Fully Responsive . This is build under the React framework and for styling we use Chakra UI and for data we use JSON SERVER with the help of ( Cyclic.sh )
+                
+              </h1>
+              <br/>
+              <h1 className='Heading2'style={{color:"#ecc94b " ,fontSize:"25px",fontWeight:"bolder"}}>Tech and Tools Used-: React,React-redux,ChakraUi,Formik ,chatbot,emailjs</h1>
             </div>
           </div>
           <div className='btn_box'>  
-          <a href="https://shopdressup.netlify.app/" classname="btn_live"><Button p={8} colorScheme='yellow'>Live</Button></a>
-  <a href='https://github.com/soroutmanisha2606/revvpro' classname="btn_live" ><Button p={8} colorScheme='yellow' >Github</Button></a> 
+          <a href="https://shopdressup.netlify.app/" target="_blank" classname="btn_live"><Button p={8} colorScheme='yellow'>Live</Button></a>
+  <a href='https://github.com/soroutmanisha2606/revvpro' target="_blank" classname="btn_live" ><Button p={8} colorScheme='yellow' >Github</Button></a> 
   </div>
         </div>
         <div className='single_projet_box'  >
@@ -56,12 +62,13 @@ const Projects = () => {
           <img className='rev_home' src={rev} width="100%" />
           <div>
             <div className='tech_tool'>
-              <h1 className='Heading2'>Tech and Tools  Used-HTML,CSS,JS</h1>
+              <h1 style={{fontSize:"23px",fontWeight:"bolder"}}>It is an car rental website on which we can rent any car for 1 ,3,6 months and it is made with the help of html ,css and js. </h1>
+              <h1 className='Heading2' style={{color:"#ecc94b " ,fontSize:"25px",fontWeight:"bolder"}}>Tech and Tools  Used-HTML,CSS,JS</h1>
             </div>
           </div>
           <div className='btn_box'>
-          <a href=""><Button colorScheme='yellow' classname="btn_live" p={8}>Live</Button></a>
-  <a href='https://github.com/soroutmanisha2606/revvpro'  ><Button p={8} colorScheme='yellow' >Github</Button></a> 
+          <a href="https://dazzling-pony-c55ac0.netlify.app/" target="_blank"><Button colorScheme='yellow' classname="btn_live" p={8}>Live</Button></a>
+  <a href='https://github.com/soroutmanisha2606/revvpro'  target="_blank"><Button p={8} colorScheme='yellow' >Github</Button></a> 
   </div>
         </div>
       </div>

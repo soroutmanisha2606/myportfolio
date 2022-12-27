@@ -15,7 +15,9 @@
     gap:20px;
 } */
 .tech_tool{
-    display: flex;
+    display: grid;
+    grid-template-columns: repeat(1,1fr);
+    color: whitesmoke;
     gap:10px
 }
 .Headings{
