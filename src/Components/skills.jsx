@@ -85,7 +85,7 @@ const skills_details=[
 const Skills = () => {
   return (
     <div id='skills'><div>
-     <h2 style={{fontSize:"60px",color:"white",fontWeight:"bolder",marginBottom:"20px",marginTop:"20px"}}>SKILLS</h2>
+     <h2 style={{fontSize:"60px",color:"white",fontWeight:"bolder",marginBottom:"39px",marginTop:"20px"}}>SKILLS</h2>
     <div  className='papa_box'>
       {
         skills_details.map(({name,url})=>{

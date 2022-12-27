@@ -4,7 +4,7 @@ import myphoto from "../images/photo.jpg"
 const About = () => {
   return (
     <div id="about" >
-    <h2 style={{fontSize:"60px",color:"white",fontWeight:"bolder",marginBottom:"20px",marginTop:"20px"}}>ABOUT</h2>
+    <h2 style={{fontSize:"60px",color:"white",fontWeight:"bolder",marginBottom:"-80px",marginTop:"10px"}}>ABOUT</h2>
     <div className='About_parent'>
        <div className='right_about'>
           <img className='my_img' src={myphoto} alt='manisha'/>

@@ -9,7 +9,7 @@ import "../Allstyles/project.css"
 import shopdress from "../images/shopdressup.png"
 const Projects = () => {
   return (<div id="project">
-   <h2 style={{fontSize:"60px",color:"white",fontWeight:"bolder",marginBottom:"20px",marginTop:"20px"}}>PROJECTS</h2>
+   <h2 style={{fontSize:"60px",color:"white",fontWeight:"bolder",marginBottom:"10px",marginTop:"20px"}}>PROJECTS</h2>
     <div className='project_main'>
       
         <div className='single_projet_box' >
