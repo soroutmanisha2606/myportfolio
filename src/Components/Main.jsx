@@ -7,7 +7,7 @@ import Home from './Home'
 import { Loder } from './Loder'
 import Navbar from './Navbar'
 import Projects from './Projects'
-
+import "../Allstyles/home.css"
 const Main = (props) => {
   const [inview, setInview] = useState("");
 
@@ -18,7 +18,7 @@ const Main = (props) => {
   }, [section]);
 
   return (
-    <>
+    <div className='main_div'>
     <Navbar  setInview={inview}/>
     <br/>
     <br/>
@@ -30,7 +30,7 @@ const Main = (props) => {
     <Contact setInview={setInview}/>   
  
    {/* <Footer/> */}
-    </>
+    </div>
    
   )
 }

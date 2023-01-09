@@ -29,7 +29,7 @@ const Home = () => {
         <h2>Full Stack Web Developer</h2>
         <div>
       <a href="https://github.com/soroutmanisha2606" target="_blank">  <Button className="btn">Github</Button></a>
-      <a href="https://drive.google.com/file/d/1E6w7kLLGksy-R3bu0rW2mdTd03dGz2V3/view?usp=share_link" target="_blank">  <Button className="btn">Resume</Button></a>
+      <a href="https://drive.google.com/file/d/1MwAZi11pm3mg8cQpkvx7IVijHJECBrHi/view?usp=share_link" target="_blank">  <Button className="btn">Resume</Button></a>
             </div>
     </div>
     </div>
