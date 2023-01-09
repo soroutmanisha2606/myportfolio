@@ -1,6 +1,6 @@
 import { Button } from '@chakra-ui/react'
 import React from 'react'
-import rev from "../images/revvclone.png"
+import horse from "../images/thehorse.png"
 import boat from "../images/boat.png"
 import bluemercury from "../images/bluemercury.png"
 import "../Allstyles/project.css"
@@ -57,25 +57,11 @@ const Projects = () => {
   <a href='https://github.com/soroutmanisha2606/shopdress' target="_blank" classname="btn_live" ><Button p={8} colorScheme='yellow' >Github</Button></a> 
   </div>
         </div>
-        <div className='single_projet_box'  >
-      {/* changes made for */}
-      <h1 className='Headings'>Revv Clone</h1>
-          <img className='rev_home' src={rev} width="100%" />
-          <div>
-            <div className='tech_tool'>
-              <h1 style={{fontSize:"23px",fontWeight:"bolder"}}>It is an car rental website on which we can rent any car for 1 ,3,6 months and it is made with the help of html ,css and js. </h1>
-              <h1 className='Heading2' style={{color:"#ecc94b " ,fontSize:"25px",fontWeight:"bolder"}}>Tech and Tools  Used-HTML,CSS,JS</h1>
-            </div>
-          </div>
-          <div className='btn_box'>
-          <a href="https://dazzling-pony-c55ac0.netlify.app/" target="_blank"><Button colorScheme='yellow' classname="btn_live" p={8}>Live</Button></a>
-  <a href='https://github.com/soroutmanisha2606/revvpro'  target="_blank"><Button p={8} colorScheme='yellow' >Github</Button></a> 
-  </div>
-        </div>
+       
         <div className='single_projet_box'  >
       {/* changes made for */}
       <h1 className='Headings'>The Horse</h1>
-          <img className='rev_home' src={rev} width="100%" />
+          <img className='rev_home' src={horse} width="100%" />
           <div>
             <div className='tech_tool'>
               <h1 style={{fontSize:"23px",fontWeight:"bolder"}}>This is a replica of the website of 'The Horse' company. In this project we have implimented the backend of the cloned website.Using MERN technology </h1>
