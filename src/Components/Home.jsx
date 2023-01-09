@@ -4,16 +4,7 @@ import { Link } from 'react-router-dom'
 import About from './About'
 import "../Allstyles/home.css"
 import Myname from '../Transistions/Myname'
-//import {introimg} from "../images/home_img_page.jpej"
 
-  
-// async function getdata(){
-//   var res1=await fetch('  http://localhost:8080/Tools');
-//   var res2=await res1.json();
-//   console.log(res2)
-//   }
-//   getdata()
- 
 const Home = () => {
   
   return (  
