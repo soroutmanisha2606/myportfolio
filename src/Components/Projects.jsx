@@ -58,6 +58,7 @@ const Projects = () => {
   </div>
         </div>
         <div className='single_projet_box'  >
+      {/* changes made for */}
       <h1 className='Headings'>Revv Clone</h1>
           <img className='rev_home' src={rev} width="100%" />
           <div>
