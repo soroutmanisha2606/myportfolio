@@ -28,7 +28,7 @@ const Projects = () => {
         </div>
         <div className='single_projet_box'  >
         <h1 className='Headings'>Bluemercury Clone</h1>
-          <img className='rev_home' src={bluemercury}  width="100%"/>
+          <img className='rev_home' src={bluemercury}  width="100%" alt='bluemercury'/>
           <div>
             <div className='tech_tool'>
               <h1 style={{fontSize:"23px",fontWeight:"bolder"}}>Bluemercury.com is a leading luxury beauty retailer offering the best cosmetics, skin care, makeup, perfume, hair, and bath and body.And it is responsive also and made with html,css and js </h1>
