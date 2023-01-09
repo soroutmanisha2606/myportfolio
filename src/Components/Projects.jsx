@@ -54,7 +54,7 @@ const Projects = () => {
           </div>
           <div className='btn_box'>  
           <a href="https://shopdressup.netlify.app/" target="_blank" classname="btn_live"><Button p={8} colorScheme='yellow'>Live</Button></a>
-  <a href='https://github.com/soroutmanisha2606/revvpro' target="_blank" classname="btn_live" ><Button p={8} colorScheme='yellow' >Github</Button></a> 
+  <a href='https://github.com/soroutmanisha2606/shopdress' target="_blank" classname="btn_live" ><Button p={8} colorScheme='yellow' >Github</Button></a> 
   </div>
         </div>
         <div className='single_projet_box'  >
@@ -70,6 +70,21 @@ const Projects = () => {
           <div className='btn_box'>
           <a href="https://dazzling-pony-c55ac0.netlify.app/" target="_blank"><Button colorScheme='yellow' classname="btn_live" p={8}>Live</Button></a>
   <a href='https://github.com/soroutmanisha2606/revvpro'  target="_blank"><Button p={8} colorScheme='yellow' >Github</Button></a> 
+  </div>
+        </div>
+        <div className='single_projet_box'  >
+      {/* changes made for */}
+      <h1 className='Headings'>The Horse</h1>
+          <img className='rev_home' src={rev} width="100%" />
+          <div>
+            <div className='tech_tool'>
+              <h1 style={{fontSize:"23px",fontWeight:"bolder"}}>This is a replica of the website of 'The Horse' company. In this project we have implimented the backend of the cloned website.Using MERN technology </h1>
+              <h1 className='Heading2' style={{color:"#ecc94b " ,fontSize:"25px",fontWeight:"bolder"}}>Tech and Tools  Used-HTML,CSS,JS</h1>
+            </div>
+          </div>
+          <div className='btn_box'>
+          <a href="https://thehorsemern.netlify.app/" target="_blank"><Button colorScheme='yellow' classname="btn_live" p={8}>Live</Button></a>
+  <a href='https://github.com/soroutmanisha2606/The-Horse-MERN'  target="_blank"><Button p={8} colorScheme='yellow' >Github</Button></a> 
   </div>
         </div>
       </div>
