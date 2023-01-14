@@ -8,10 +8,10 @@
   background-color: none;
 }
 .content p,h2{
-    color: white;
+    /* color: white; */
     font-size: 70px;
     font-weight: 600;
-    color: white;
+    /* color: white; */
     font-family:sans-serif;
 }
 
@@ -49,7 +49,7 @@
 }
 .main_skill{
   width: 220px;
-  background-color: rgb(14, 13, 13);
+  /* background-color: rgb(14, 13, 13); */
  
   /* border:2px solid white; */
   border: none;
@@ -68,7 +68,7 @@
   display: grid;
 grid-template-columns: repeat(5,1fr);
 gap:20px;
-color: white;
+/* color: white; */
 font-size: 20px;
 
 }
@@ -81,7 +81,7 @@ font-size: 20px;
   position: relative;
   animation-name: mymove;
   animation-duration: 3s;
-
+  margin-top: 1%;
 }
 @keyframes mymove {
   from {bottom: 0px;}
@@ -101,7 +101,7 @@ display: none;}
   display: grid;
 grid-template-columns: repeat(1,1fr);
 gap:5px;
-color: white;
+/* color: white; */
 font-size: 20px;
 
 }
@@ -128,7 +128,7 @@ font-size: 20px;
   display: grid;
 grid-template-columns: repeat(4,1fr);
 gap:5px;
-color: white;
+/* color: white; */
 font-size: 20px;
 
 }
@@ -141,7 +141,7 @@ font-size: 20px;
   width: 120px;
   background-color: rgb(14, 13, 13);
  
-  /* border:2px solid white; */
+  border:2px solid white;
   border: none;
   align-items: center;
   margin: auto;
@@ -150,22 +150,19 @@ font-size: 20px;
  
   
 }
+.transistion{
+  font-size: 30px;
+  margin-top: 20%;
+}
  }
 
  @media only screen and (min-width: 350px) and (max-width: 450px)  {
-  /* .papa_box{
-    display: grid;
-  grid-template-columns: repeat(4,1fr);
-  gap:5px;
-  color: white;
-  font-size: 20px;
   
-  } */
   .papa_box{
     display: grid;
   grid-template-columns: repeat(1,1fr);
   gap:5px;
-  color: white;
+  /* color: white; */
   font-size: 20px;
   
   }
@@ -173,6 +170,23 @@ font-size: 20px;
   width: 200px;
   margin-bottom: 30%;
  }
+ .transistion{
+  font-size: 30px;
+  margin-top: 20%;
+}
+.main_skill{
+  width: 120px;
+  /* background-color: rgb(14, 13, 13); */
+ 
+  border:2px solid white;
+  border: none;
+  align-items: center;
+  margin: auto;
+  padding: 13px;
+  transition: all .3s ease-in-out;
+  
+}
+
 }
 @media only screen and (min-width: 768px) and (max-width: 1024px)  {
   .content{
@@ -180,12 +194,12 @@ font-size: 20px;
     
       margin: auto;
       margin-bottom:10%;
-    margin-left: -35%;
+      margin-left: -35%;
       height: 400px;
       width: 600px;
   }
   .transistion{
-      font-size: 60px;
-      margin-top: 10%;
+      font-size: 30px;
+      margin-top: 30%;
     }
   }

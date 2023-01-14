@@ -13,30 +13,9 @@ const About = () => {
   }, []); 
   return (
     <div id="about" >
-    <h2 style={{fontSize:"60px",color:"white",fontWeight:"bolder",marginBottom:"-20px",marginTop:"10px",alignContent:"center"}}>ABOUT</h2>
+    <h2 style={{fontSize:"60px",fontWeight:"bolder",marginBottom:"-35px",marginTop:"10px",alignContent:"center"}}>ABOUT</h2>
     <div className='About_parent'>
-      {/* 
-       */}
-       {/* <div >
-        <div className='right_about'>
-          <motion.div
-            className="svg"
-            animate={{ translateY: [-5, 0, -5, 0] }}
-            transition={{ yoyo: Infinity, duration: 6 }}
-          >
-            <Image
-              src={myphoto}
-              margin="auto"
-              height="300px"
-              maxW="500px"
-              borderRadius={"50%"}
-              border="1px solid"
-              data-aos={"flip-up"}
-              boxShadow="rgb(38, 57, 77) 0px 20px 30px -10px"
-            />
-          </motion.div>
-        </div>
-        </div> */}
+     
        <div className='right_about'>
        <motion.div
             className="svg"

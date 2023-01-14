@@ -1,5 +1,5 @@
 import { Button } from '@chakra-ui/react'
-import React from 'react'
+import React, { useEffect } from 'react'
 import horse from "../images/thehorse.png"
 import boat from "../images/boat.png"
 
@@ -10,17 +10,23 @@ import "../Allstyles/project.css"
 
 import shopdress from "../images/shopdressup.png"
 import { motion } from "framer-motion";
+import Aos from 'aos'
 
 const Projects = () => {
+  useEffect(() => {
+    Aos.init({
+      duration: 3000,
+    });
+  }, []); 
   return (<div id="project">
-   <h2 style={{fontSize:"60px",color:"white",fontWeight:"bolder",marginBottom:"10px",marginTop:"20px"}}>PROJECTS</h2>
+   <h2 style={{fontSize:"60px",fontWeight:"bolder",marginBottom:"10px",marginTop:"20px"}}>PROJECTS</h2>
     <div className='project_main'>
     <motion.div
             className="svg"
             animate={{ translateY: [-5, 0, -5, 0] }}
             transition={{ yoyo: Infinity, duration: 6 }}
           >
-        <div className='single_projet_box' >
+        <div className='single_projet_box'  data-aos="flip-right"  >
         <h1 className='Headings'>Boat Clone</h1>
           <img className='rev_home' src={boat} width="100%"/>
           <div>
@@ -35,7 +41,12 @@ const Projects = () => {
   </div>
         </div>
        </motion.div>
-        <div className='single_projet_box'  >
+       <motion.div
+            className="svg"
+            animate={{ translateY: [-5, 0, -5, 0] }}
+            transition={{ yoyo: Infinity, duration: 6 }}
+          >
+        <div className='single_projet_box' data-aos="flip-left" >
         <h1 className='Headings'>Bluemercury Clone</h1>
           <img className='rev_home' src={bluemercury}  width="100%" alt='bluemercury'/>
           <div>
@@ -49,7 +60,17 @@ const Projects = () => {
   <a href='https://github.com/soroutmanisha2606/Bluemercury' target="_blank" classname="btn_live" ><Button p={5} colorScheme='yellow' >Github</Button></a> 
   </div>
         </div>
-        <div className='single_projet_box'  >
+        </motion.div>
+
+
+
+
+        <motion.div
+            className="svg"
+            animate={{ translateY: [-5, 0, -5, 0] }}
+            transition={{ yoyo: Infinity, duration: 6 }}
+          >
+        <div className='single_projet_box'  data-aos="flip-right">
         <h1 className='Headings'>Shopdress Up Clone</h1>
           <img className='rev_home' src={shopdress} width="100%"/>
           <div>
@@ -66,8 +87,17 @@ const Projects = () => {
   <a href='https://github.com/soroutmanisha2606/shopdress' target="_blank" classname="btn_live" ><Button p={5} colorScheme='yellow' >Github</Button></a> 
   </div>
         </div>
+        </motion.div>
        
-        <div className='single_projet_box'  >
+
+
+
+        <motion.div
+            className="svg"
+            animate={{ translateY: [-5, 0, -5, 0] }}
+            transition={{ yoyo: Infinity, duration: 6 }}
+          >
+        <div className='single_projet_box'  data-aos="flip-left">
       {/* changes made for */}
       <h1 className='Headings'>The Horse</h1>
           <img className='rev_home' src={horse} width="100%" />
@@ -82,7 +112,9 @@ const Projects = () => {
   <a href='https://github.com/soroutmanisha2606/The-Horse-MERN'  target="_blank"><Button p={5} colorScheme='yellow' >Github</Button></a> 
   </div>
         </div>
+        </motion.div>
       </div>
+      
     
 
         

@@ -4,11 +4,12 @@
     padding: 15px;
     z-index: 3;
     margin-top: 0px;
+    background-color: black;
     color: white;
 }
 .div2{  
   width: 60%;
-  color: white;
+  /* color: white; */
   /* border: 2px solid blue; */
   /* background-color: pink; */
 display: flex;
@@ -29,22 +30,7 @@ justify-content: space-evenly;
       cursor: default; }
 
       
-      /* @media only screen and (min-width: 414px) and (max-width: 896px)  { 
- .box_withname{
-  display: none;
- }
- .nav{
-  display: flex;
-  width: 100%;
-  position: fixed;
-  justify-content: space-between;
- 
- }
- .div2{
-  width: 100%;
-  color: white;
- }
-      } */
+    
       /* bada */
       @media only screen and (min-width: 290px) and (max-width: 844px)  {
         .box_withname{
@@ -67,8 +53,8 @@ justify-content: space-evenly;
           justify-content: space-between;
          }
          .div2{
-          width: 290px;
-          color: white;
+          width: 270px;
+          /* color: white; */
           /* border: 2px solid rgb(81, 81, 21); */
           /* background-color: pink; */
         display: flex;
@@ -93,8 +79,8 @@ justify-content: space-evenly;
           justify-content: space-between;
          }
          .div2{
-          width:410px;
-          color: white;
+          width:350px;
+          /* color: white; */
           /* border: 2px solid rgb(81, 81, 21); */
           /* background-color: pink; */
         display: flex;
@@ -118,8 +104,8 @@ justify-content: space-evenly;
           justify-content: space-between;
          }
          .div2{
-          width: 490px;
-          color: white;
+          width: 390px;
+          /* color: white; */
           /* border: 2px solid rgb(81, 81, 21); */
           /* background-color: pink; */
         display: flex;
@@ -144,8 +130,8 @@ justify-content: space-evenly;
           justify-content: space-between;
          }
          .div2{  
-          width: 590px;
-          color: white;
+          width: 450px;
+          /* color: white; */
           /* border: 2px solid blue; */
           /* background-color: pink; */
         display: flex;
@@ -169,8 +155,8 @@ justify-content: space-evenly;
           justify-content: space-between;
          }
          .div2{  
-          width: 790px;
-          color: white;
+          width: 690px;
+          /* color: white; */
           /* border: 2px solid blue; */
           /* background-color: pink; */
         display: flex;

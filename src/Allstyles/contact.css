@@ -13,7 +13,7 @@
 }
 .contact_boxes{
     /* border:2px solid white; */
-    color: white;
+    /* color: white; */
     font-size: 30px;
   
   display: flex;
@@ -32,7 +32,7 @@
     font-weight: 60px;
   margin-left: 48%;
    
-color: white;
+/* color: white; */
   /* border: 1px solid white; */
     background-color: none;
     margin: auto;
@@ -64,7 +64,7 @@ color: white;
     font-weight: 40px;
   margin-left: 48%;
    
-color: white;
+/* color: white; */
   /* border: 1px solid white; */
     background-color: none;
     margin: auto;

@@ -5,6 +5,7 @@ import { NavHashLink, HashLink } from 'react-router-hash-link'
 import { BrowserRouter } from 'react-router-dom'
 import "../App.css"
 import "../Allstyles/navbar.css"
+import { ThemeContext } from '../Context/Dark'
 
 const Navbar = ({ inview }) => {
   const [active, setActive] = useState("#");
@@ -31,13 +32,15 @@ const Navbar = ({ inview }) => {
       }
     );
   }, []);
+  const {theme,mytheme,handleToggle}=React.useContext(ThemeContext)
+  
   return (
     
     <Box className={showNav ? 1 : 0}>
       
     <div className='nav'><Flex minWidth='max-content' alignItems='center' gap='2'>
     <div p='2' className='box_withname'>
-     <Link ><Heading size='lg' sx={{color:"white"}}>Manisha</Heading></Link> 
+     <Link ><Heading size='lg' >Manisha</Heading></Link> 
     </div>
     <Spacer />
     <div className='div2'>   
@@ -75,6 +78,12 @@ const Navbar = ({ inview }) => {
             >Contact</ NavHashLink></div>
            
            </div>
+           <div>
+           <label class="switch">
+  <input type="checkbox"  onClick={handleToggle} />
+  <span class="slider round"></span>
+</label>
+</div>
   </Flex>
   </div>
   </Box>

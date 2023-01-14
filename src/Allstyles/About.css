@@ -1,10 +1,10 @@
 .About_parent{
-    color: white;
+    /* color: white; */
     display: flex;
     gap: 30px;
     font: bolder;
     font-size: 30px;
-    margin-top: 10%;
+    margin-top: 4%;
     z-index: 1;
    
     align-content: center;
@@ -14,7 +14,7 @@
 #about{
     margin: auto;
     margin-left: -5px;
-    margin-right: -90px;
+    margin-right: -70px;
     /* //margin-left: 1000px;
     border: 2px solid white; */
 }
@@ -38,7 +38,7 @@
  /* responsive */
  @media only screen and (min-width: 414px) and (max-width: 896px)  {
     .About_parent{
-        color: white;
+        /* color: white; */
         display: flex;
         flex-direction: column;
      
@@ -74,7 +74,7 @@
  }
  @media only screen and (min-width: 390px) and (max-width: 844px)  {
     .About_parent{
-        color: white;
+        /* color: white; */
         display: flex;
         flex-direction: column;
         
@@ -117,7 +117,7 @@
     margin-top: 60px;
 }
 .h2{
-    font-size: 20px;
+    font-size: 15px;
 }
 .transistion{
     font-size: 29px;

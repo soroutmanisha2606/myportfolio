@@ -17,15 +17,15 @@
 .tech_tool{
     display: grid;
     grid-template-columns: repeat(1,1fr);
-    color: whitesmoke;
+    /* color: whitesmoke; */
     gap:10px
 }
 .Headings{
-    color: white;
+    /* color: white; */
     font-size: 30px;
 }
 .Heading2{
-    color: white;
+    /* color: white; */
     font-size: 20px;
 }
 .single_projet_box{

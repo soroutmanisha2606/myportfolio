@@ -85,7 +85,7 @@ const skills_details=[
 const Skills = () => {
   return (
     <div id='skills'><div>
-     <h2 style={{fontSize:"60px",color:"white",fontWeight:"bolder",marginBottom:"39px",marginTop:"20px"}}>SKILLS</h2>
+     <h2 style={{fontSize:"60px",fontWeight:"bolder",marginBottom:"39px",marginTop:"30px"}}>SKILLS</h2>
     <div  className='papa_box'>
       {
         skills_details.map(({name,url})=>{
@@ -99,7 +99,7 @@ const Skills = () => {
 
   </div>
   <div>
-      <h1 style={{fontSize:"60px",color:"white",fontWeight:"bolder",marginBottom:"30px"}}>TOOLS</h1>
+      <h1 style={{fontSize:"60px",fontWeight:"bolder",marginBottom:"30px"}}>TOOLS</h1>
       <div  className='papa_box'>
         {
           tools.map(({name,url})=>{
