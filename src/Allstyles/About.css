@@ -6,6 +6,7 @@
     font-size: 30px;
     margin-top: 10%;
     z-index: 1;
+   
     align-content: center;
     margin-left: 90px;
 
@@ -28,6 +29,7 @@
 }
 .my_img{
     width: 270px;
+   
     
     height: 350px;
     border-radius: 10px;
@@ -54,7 +56,7 @@
         flex-direction: column;
     }
     .spantag{
-        font-size: 25px;
+        font-size: 20px;
         font-weight: bolder;      
     }
     
@@ -100,10 +102,33 @@
         width: 90%;
         border:"2px solid white"
     }
- }
- @media only screen and (min-width: 768px) and (max-width: 1024px)  {
 
  }
- @media only screen and (min-width: 912px) and (max-width: 1368px)  {
+ @media only screen and (min-width: 375px) and (max-width: 667px)  {
+.About_parent{
+    display: grid;
+    grid-template-columns: repeat(1,1fr);
+    /* margin: auto; */
+    align-items: center;
+}
+.my_img{
+    width: 200px;
+    height: 200px;
+    margin-top: 60px;
+}
+.h2{
+    font-size: 20px;
+}
+.transistion{
+    font-size: 29px;
+}
 
+ }
+ @media only screen and (max-width: 760px) and (min-width: 360px)  {
+    .About_parent{
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+        /* margin: auto; */
+        align-items: center;
+    }
  }

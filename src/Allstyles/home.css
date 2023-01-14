@@ -35,18 +35,24 @@
   color:black;
 }
 .url{
-  width: 80px;
-  height: 100px;
+  width: 70px;
+  height: 80px;
+ margin: auto;
 }
 .content{
   margin-left: 8%;
   width: 400px;
 
 }
+#skills{
+   padding: 50px;
+}
 .main_skill{
-  width: 120px;
+  width: 220px;
+  background-color: rgb(14, 13, 13);
  
-  border:2px solid white;
+  /* border:2px solid white; */
+  border: none;
   align-items: center;
   margin: auto;
   padding: 13px;
@@ -60,7 +66,7 @@
 }
 .papa_box{
   display: grid;
-grid-template-columns: repeat(6,1fr);
+grid-template-columns: repeat(5,1fr);
 gap:20px;
 color: white;
 font-size: 20px;
@@ -93,7 +99,7 @@ font-size: 20px;
 display: none;}
 .papa_box{
   display: grid;
-grid-template-columns: repeat(2,1fr);
+grid-template-columns: repeat(1,1fr);
 gap:5px;
 color: white;
 font-size: 20px;
@@ -131,6 +137,19 @@ font-size: 20px;
   margin: auto;
   margin-left: -30px;
 }
+.main_skill{
+  width: 120px;
+  background-color: rgb(14, 13, 13);
+ 
+  /* border:2px solid white; */
+  border: none;
+  align-items: center;
+  margin: auto;
+  padding: 13px;
+  transition: all .3s ease-in-out;
+ 
+  
+}
  }
 
  @media only screen and (min-width: 350px) and (max-width: 450px)  {
@@ -142,6 +161,14 @@ font-size: 20px;
   font-size: 20px;
   
   } */
+  .papa_box{
+    display: grid;
+  grid-template-columns: repeat(1,1fr);
+  gap:5px;
+  color: white;
+  font-size: 20px;
+  
+  }
 .content{
   width: 200px;
   margin-bottom: 30%;
@@ -150,7 +177,7 @@ font-size: 20px;
 @media only screen and (min-width: 768px) and (max-width: 1024px)  {
   .content{
       /* border: 2px solid yellow; */
-      position: relative;
+    
       margin: auto;
       margin-bottom:10%;
     margin-left: -35%;
@@ -159,5 +186,6 @@ font-size: 20px;
   }
   .transistion{
       font-size: 60px;
+      margin-top: 10%;
     }
   }

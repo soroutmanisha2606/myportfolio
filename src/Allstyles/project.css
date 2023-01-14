@@ -77,8 +77,9 @@
     /* border: 2px solid yellow; */
     position: relative;
     margin: auto;
-    margin-bottom: 20%;
+    margin-bottom: -10%;
   margin-left: -35%;
+
     height: 200px;
     width: 300px;
 }

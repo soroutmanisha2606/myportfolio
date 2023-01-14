@@ -91,7 +91,7 @@ const Skills = () => {
         skills_details.map(({name,url})=>{
           return <div className='main_skill'>
             <img className="url"src={url}/>
-            <h5>{name}</h5>
+            <h5 >{name}</h5>
           </div>
         })
       }
@@ -105,7 +105,7 @@ const Skills = () => {
           tools.map(({name,url})=>{
             return <div className='main_skill'>
               <img className="url"src={url}/>
-              <h5>{name}</h5>
+              <h5 style={{backgroundColor:"none"}}>{name}</h5>
             </div>
           })
         }

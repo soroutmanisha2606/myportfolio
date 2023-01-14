@@ -2,16 +2,24 @@ import { Button } from '@chakra-ui/react'
 import React from 'react'
 import horse from "../images/thehorse.png"
 import boat from "../images/boat.png"
+
 import bluemercury from "../images/bluemercury.png"
 import "../Allstyles/project.css"
 
 import "../Allstyles/project.css"
+
 import shopdress from "../images/shopdressup.png"
+import { motion } from "framer-motion";
+
 const Projects = () => {
   return (<div id="project">
    <h2 style={{fontSize:"60px",color:"white",fontWeight:"bolder",marginBottom:"10px",marginTop:"20px"}}>PROJECTS</h2>
     <div className='project_main'>
-      
+    <motion.div
+            className="svg"
+            animate={{ translateY: [-5, 0, -5, 0] }}
+            transition={{ yoyo: Infinity, duration: 6 }}
+          >
         <div className='single_projet_box' >
         <h1 className='Headings'>Boat Clone</h1>
           <img className='rev_home' src={boat} width="100%"/>
@@ -22,10 +30,11 @@ const Projects = () => {
             </div>
           </div>
           <div className='btn_box'>
-          <a href="https://clone-boat-lifestyle.netlify.app/"target="_blank"><Button colorScheme='yellow' classname="btn_live" p={8}>Live</Button></a>
-  <a href='https://github.com/soroutmanisha2606/boat-lifestyle-clone' target="_blank" classname="btn_live" ><Button p={8} colorScheme='yellow' >Github</Button></a> 
+          <a href="https://clone-boat-lifestyle.netlify.app/"target="_blank"><Button colorScheme='yellow' classname="btn_live" p={5}>Live</Button></a>
+  <a href='https://github.com/soroutmanisha2606/boat-lifestyle-clone' target="_blank" classname="btn_live" ><Button p={5} colorScheme='yellow' >Github</Button></a> 
   </div>
         </div>
+       </motion.div>
         <div className='single_projet_box'  >
         <h1 className='Headings'>Bluemercury Clone</h1>
           <img className='rev_home' src={bluemercury}  width="100%" alt='bluemercury'/>
@@ -36,8 +45,8 @@ const Projects = () => {
             </div>
           </div> 
           <div className='btn_box'>
-          <a href="https://unrivaled-fenglisu-63c439.netlify.app/" target="_blank"><Button colorScheme='yellow' classname="btn_live" p={8}>Live</Button></a>
-  <a href='https://github.com/soroutmanisha2606/Bluemercury' target="_blank" classname="btn_live" ><Button p={8} colorScheme='yellow' >Github</Button></a> 
+          <a href="https://unrivaled-fenglisu-63c439.netlify.app/" target="_blank"><Button colorScheme='yellow' classname="btn_live" p={5}>Live</Button></a>
+  <a href='https://github.com/soroutmanisha2606/Bluemercury' target="_blank" classname="btn_live" ><Button p={5} colorScheme='yellow' >Github</Button></a> 
   </div>
         </div>
         <div className='single_projet_box'  >
@@ -53,8 +62,8 @@ const Projects = () => {
             </div>
           </div>
           <div className='btn_box'>  
-          <a href="https://shopdressup.netlify.app/" target="_blank" classname="btn_live"><Button p={8} colorScheme='yellow'>Live</Button></a>
-  <a href='https://github.com/soroutmanisha2606/shopdress' target="_blank" classname="btn_live" ><Button p={8} colorScheme='yellow' >Github</Button></a> 
+          <a href="https://shopdressup.netlify.app/" target="_blank" classname="btn_live"><Button p={5} colorScheme='yellow'>Live</Button></a>
+  <a href='https://github.com/soroutmanisha2606/shopdress' target="_blank" classname="btn_live" ><Button p={5} colorScheme='yellow' >Github</Button></a> 
   </div>
         </div>
        
@@ -69,8 +78,8 @@ const Projects = () => {
             </div>
           </div>
           <div className='btn_box'>
-          <a href="https://thehorsemern.netlify.app/" target="_blank"><Button colorScheme='yellow' classname="btn_live" p={8}>Live</Button></a>
-  <a href='https://github.com/soroutmanisha2606/The-Horse-MERN'  target="_blank"><Button p={8} colorScheme='yellow' >Github</Button></a> 
+          <a href="https://thehorsemern.netlify.app/" target="_blank"><Button colorScheme='yellow' classname="btn_live" p={5}>Live</Button></a>
+  <a href='https://github.com/soroutmanisha2606/The-Horse-MERN'  target="_blank"><Button p={5} colorScheme='yellow' >Github</Button></a> 
   </div>
         </div>
       </div>

@@ -3,7 +3,8 @@ import { Route,Routes } from 'react-router-dom'
 import About from '../Components/About'
 import { Contact } from '../Components/Contact'
 import Home from '../Components/Home'
-import Main from '../Components/Main'
+import HomeNew from '../Components/HomeNew'
+import Main, { Home2 } from '../Components/Main'
 import Navbar from '../Components/Navbar'
 import Projects from '../Components/Projects'
 import Skills from '../Components/skills'
@@ -22,6 +23,7 @@ const Allroutes = () => {
    <br/>
    <br/>
    <Home/>
+ {/* <HomeNew/> */}
    <br/>
    <br/>
    <Skills/> 
