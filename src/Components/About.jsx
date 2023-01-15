@@ -4,6 +4,8 @@ import "../Allstyles/About.css"
 import Aos from "aos";
 import "aos/dist/aos.css";
 import myphoto from "../images/photo.jpg"
+import image from "../images/image2.jpg"
+
 import { motion } from "framer-motion";
 const About = () => {
   useEffect(() => {
@@ -21,7 +23,7 @@ const About = () => {
             animate={{ translateY: [-5, 0, -5, 0] }}
             transition={{ yoyo: Infinity, duration: 6 }}
           >
-          <img className='my_img'  data-aos="flip-up" src={myphoto} alt='manisha'/>
+          <img className='my_img'  data-aos="flip-up" src={image} alt='manisha'/>
           </motion.div>
         </div> 
       <div className='left_about'>
