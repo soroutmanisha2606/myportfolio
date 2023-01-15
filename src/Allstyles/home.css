@@ -160,7 +160,7 @@ font-size: 20px;
   
   .papa_box{
     display: grid;
-  grid-template-columns: repeat(1,1fr);
+  grid-template-columns: repeat(2,1fr);
   gap:5px;
   /* color: white; */
   font-size: 20px;
@@ -182,7 +182,7 @@ font-size: 20px;
   border: none;
   align-items: center;
   margin: auto;
-  padding: 13px;
+ 
   transition: all .3s ease-in-out;
   
 }

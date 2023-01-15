@@ -11,19 +11,13 @@ import Skills from '../Components/skills'
 const Allroutes = () => {
   return (
    <>
-   {/* <Routes>
-<Route path="/" element={<Home/>}></Route>
-<Route path='/about' element={<About/>}></Route>
-<Route path='/contact' element={<Contact/>}></Route>
-<Route path='/project' element={<Projects/>}></Route>
-
-   </Routes> */}
+  
    <Navbar/>
    <br/>
    <br/>
    <br/>
-   <Home/>
- {/* <HomeNew/> */}
+   <Home style={{border:"3px solid  red"}}/>
+ 
    <br/>
    <br/>
    <Skills/> 

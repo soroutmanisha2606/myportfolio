@@ -6,17 +6,20 @@
     font-size: 30px;
     margin-top: 4%;
     z-index: 1;
-   
+    width: 90%;
     align-content: center;
     margin-left: 90px;
 
 }
 #about{
     margin: auto;
-    margin-left: -5px;
-    margin-right: -70px;
+    margin-left: 80px;
+    /* margin-right: -70px; */
     /* //margin-left: 1000px;
-    border: 2px solid white; */
+    border: 2px solid white; */;
+    width: 90%;
+    /* border: 2px solid red */
+
 }
 .span{
     font-size: 60px;
@@ -28,8 +31,7 @@
     border:"2px solid white"
 }
 .my_img{
-    width: 270px;
-   
+    width: 270px; 
     
     height: 350px;
     border-radius: 10px;
@@ -54,6 +56,10 @@
     #about{
         display: flex;
         flex-direction: column;
+        width: 90%;
+       align-items: center;
+       margin-left: 10%;
+       margin-right: -10%;
     }
     .spantag{
         font-size: 20px;
@@ -102,6 +108,11 @@
         width: 90%;
         border:"2px solid white"
     }
+    #about{
+        display: flex;
+        flex-direction: column;
+        width: 90%;
+    }
 
  }
  @media only screen and (min-width: 375px) and (max-width: 667px)  {
@@ -121,6 +132,12 @@
 }
 .transistion{
     font-size: 29px;
+}
+#about{
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    margin-left: 3%;
 }
 
  }
