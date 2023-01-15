@@ -13,9 +13,8 @@ const About = () => {
   }, []); 
   return (
     <div id="about" >
-    <h2 style={{fontSize:"60px",fontWeight:"bolder",marginBottom:"-35px",marginTop:"10px",alignContent:"center"}}>ABOUT</h2>
-    <div className='About_parent'>
-     
+    <h2 style={{fontSize:"60px",fontWeight:"bolder",marginBottom:"20px",marginTop:"10px",alignContent:"center"}}>ABOUT</h2>
+    <div className='About_parent'>     
        <div className='right_about'>
        <motion.div
             className="svg"
@@ -27,7 +26,7 @@ const About = () => {
         </div> 
       <div className='left_about'>
         {/*  */}
-        <h1>Hii there👋 <span className='spantag'> I'm MANISHA 🙃</span></h1>
+        <h1 className='h11'>Hii there👋 <span className='spantag'> I'm MANISHA 🙃</span></h1>
         <h2 className='h2'> I'm a Full stack web Developer 👩‍💻 ,passionate about  building great applications with my  skills and always ready for exploring new opportunities .I am a Quick Learner And an Aspiring full stack web Developer with core knowledge of MERN stack Technology.I am looking for the Opportunities for enhancing my skills and Knowlegde </h2>
         </div>
        
