@@ -8,20 +8,16 @@
     z-index: 1;
     width: 97%;
     margin: auto;
-    /* border: 3px green solid; */
-    /* align-content: center; */
+   
     margin-left: 30px;
 }
 #about{
    display: block;
    margin-left: auto;
    margin-right: auto;
-    /* margin-left: 80px; */
-    /* margin-right: -70px; */
-    /* //margin-left: 1000px;
-    border: 2px solid white; */
+   
     width: 90%;
-    /* border: 2px solid red;  */
+  
     padding: -20px;
 }
 .h11{
