@@ -10,22 +10,18 @@
     display: flex;
     gap: 10px;
 }
-/* .project_main{
-    display: flex;
-    gap:20px;
-} */
+
 .tech_tool{
     display: grid;
     grid-template-columns: repeat(1,1fr);
-    /* color: whitesmoke; */
-    gap:10px
+       gap:10px
 }
 .Headings{
-    /* color: white; */
+ 
     font-size: 30px;
 }
 .Heading2{
-    /* color: white; */
+  
     font-size: 20px;
 }
 .single_projet_box{
@@ -74,7 +70,7 @@
      align-content: center; 
     }
 .content{
-    /* border: 2px solid yellow; */
+   
     position: relative;
     margin: auto;
     margin-bottom: -10%;
@@ -106,7 +102,7 @@
    }
    @media only screen and (min-width: 768px) and (max-width: 1024px)  {
     .content{
-        /* border: 2px solid yellow; */
+      
         position: relative;
         margin: auto;
         margin-bottom:10%;

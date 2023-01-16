@@ -36,12 +36,5 @@ const About = () => {
     </div >
   )
 }
-// display: block;
-// padding: 0.5rem 1rem; }
-// .nav-link:hover, .nav-link:focus {
-//   text-decoration: none; }
-// .nav-link.disabled {
-//   color: #6c757d;
-//   pointer-events: none;
-//   cursor: default; }
+
 export default About
