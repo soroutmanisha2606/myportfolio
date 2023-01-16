@@ -12,8 +12,7 @@
     border-radius: 20px;
 }
 .contact_boxes{
-    /* border:2px solid white; */
-    /* color: white; */
+  
     font-size: 30px;
   
   display: flex;
@@ -32,8 +31,7 @@
     font-weight: 60px;
   margin-left: 48%;
    
-/* color: white; */
-  /* border: 1px solid white; */
+
     background-color: none;
     margin: auto;
     margin-top: 100px;
@@ -64,8 +62,7 @@
     font-weight: 40px;
   margin-left: 48%;
    
-/* color: white; */
-  /* border: 1px solid white; */
+
     background-color: none;
     margin: auto;
     margin-top: 100px;
@@ -79,7 +76,7 @@
    @media only screen and (max-width:740px) and (min-width: 360px)  {
   .all_contact_boxes{
     font-size: 10px;
-    /* border: 3px solid wheat; */
+   
     width: 300px;
     margin-left: -29%;
   align-content: center;
@@ -92,10 +89,7 @@
 .IMAGE{
   display: none;
 }
-.all_contact_boxes{
-  /* margin: auto; */
- 
-}
+
    }
    @media only screen and (max-width: 896px) and (min-width: 414px)  {
     .all_contact_boxes{
