@@ -36,7 +36,7 @@ const Projects = () => {
             </div>
           </div>
           <div className='btn_box'>
-          <a href="https://clone-boat-lifestyle.netlify.app/"target="_blank"><Button colorScheme='yellow' classname="btn_live" p={5}>Live</Button></a>
+          <a href="https://clone-boat-website.netlify.app/" target="_blank"><Button colorScheme='yellow' classname="btn_live" p={5}>Live</Button></a>
   <a href='https://github.com/soroutmanisha2606/boat-lifestyle-clone' target="_blank" classname="btn_live" ><Button p={5} colorScheme='yellow' >Github</Button></a> 
   </div>
         </div>

@@ -16,16 +16,16 @@
 }
 
 .gif_img{
-    height: 420px;
-    width: 500px;
+    height: 350px;
+    width: 480px;
     margin-left: 50px;
     border-radius: 20px;
+    margin-top: 30px;
 }
 .hero{
-    display: flex;
-    /* border:2px solid red */
-   
+    display: flex; 
 }
+
 .btn:hover{
   background-color: blue ;
   color:rgb(196, 61, 61);
@@ -72,18 +72,19 @@ font-size: 20px;
 }
 .transistion{
   display: inline-block;
-
-
   animation-fill-mode: forwards;
   animation-iteration-count: infinite ;
   position: relative;
   animation-name: mymove;
   animation-duration: 3s;
+ /* border: 2px solid red; */
+ width: 500px;
+ margin-left: -80px;
   margin-top: 1%;
 }
 @keyframes mymove {
   from {bottom: 0px;}
-  to {bottom: 50px;}
+  to {bottom: 80px;}
 }
  /* responsive */
  @media only screen and (max-width: 896px) and (min-width: 214px)  {

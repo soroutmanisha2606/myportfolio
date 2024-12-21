@@ -1,8 +1,6 @@
 import React, { useEffect, useState } from 'react'
-import Allroutes from '../Routes/Allroutes'
 import About from './About'
 import { Contact } from './Contact'
-import Footer from './footer'
 import Home from './Home'
 import { Loder } from './Loder'
 import Navbar from './Navbar'
@@ -23,13 +21,10 @@ const Main = (props) => {
     <br/>
     <br/>
     <br/>
-    {/* <Allroutes/> */}
     <Home setInview={setInview }/>
     <About setInview={setInview}/>
     <Projects setInview={setInview}/>
     <Contact setInview={setInview}/>   
- 
-   {/* <Footer/> */}
     </div>
    
   )

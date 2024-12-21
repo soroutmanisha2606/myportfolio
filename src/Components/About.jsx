@@ -1,9 +1,9 @@
-import { Flex, Image } from '@chakra-ui/react'
+
 import React, { useEffect } from 'react'
 import "../Allstyles/About.css"
 import Aos from "aos";
 import "aos/dist/aos.css";
-import myphoto from "../images/photo.jpg"
+
 import image from "../images/image2.jpg"
 
 import { motion } from "framer-motion";
@@ -28,8 +28,8 @@ const About = () => {
         </div> 
       <div className='left_about'>
         {/*  */}
-        <h1 className='h11'>Hii there👋 <span className='spantag'> I'm MANISHA 🙃</span></h1>
-        <h2 className='h2'> I'm a Full stack web Developer 👩‍💻 ,passionate about  building great applications with my  skills and always ready for exploring new opportunities .I am a Quick Learner And an Aspiring full stack web Developer with core knowledge of MERN stack Technology.I am looking for the Opportunities for enhancing my skills and Knowlegde </h2>
+        {/* <h1 className='h11'>Hii there👋 <span className='spantag'> I'm MANISHA 🙃</span></h1> */}
+        <h5 className='h2'>I am a Full-Stack Web Developer👩‍💻 with 2 years of experience building dynamic and scalable applications using the MERN stack. Passionate about creating seamless user experiences, I thrive on solving challenges with clean and efficient code. Always eager to learn, I’m looking for opportunities to innovate and grow in fast-paced, tech-driven environments </h5>
         </div>
        
     </div>
